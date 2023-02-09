@@ -1,0 +1,13 @@
+Deze code creëert een klasse genaamd TextModel die verschillende eigenschappen van een tekstbestand kan analyseren, zoals het aantal woorden, het aantal woordlengtes, het aantal stammen,
+het aantal zinslengtes en het aantal interpunctiekenmerken. 
+De klasse bevat een constructor (init) die verschillende lege dictionaries maakt die later gebruikt worden om de verschillende eigenschappen te tellen.
+
+De klasse bevat ook een repr-methode die wordt gebruikt om de inhoud van een TextModel-object weer te geven.
+Er zijn ook meerdere methodes toegevoegd aan de klasse, waaronder read_text_from_file, make_sentence_lengths en make_punctuation_counter.
+
+De read_text_from_file-methode wordt gebruikt om tekst uit een bestand te lezen en deze toe te wijzen aan het text-attribuut van een TextModel-object. 
+De make_sentence_lengths-methode wordt gebruikt om de tekst op te delen in zinnen en het aantal woorden in elke zin te tellen. 
+De make_punctuation_counter-methode wordt gebruikt om het aantal interpunctiekenmerken in de tekst te tellen.
+
+Aan het einde van de code wordt een TextModel-object aangemaakt, wordt een testtekst uit een bestand gelezen en worden de make_sentence_lengths- en make_punctuation_counter-methodes uitgevoerd. 
+Er worden vervolgens testgevallen uitgevoerd om te controleren of de uitvoer van de methodes klopt. Tenslotte wordt het object weergegeven met behulp van repr method.

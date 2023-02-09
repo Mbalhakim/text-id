@@ -1,0 +1,15 @@
+Dit is een code die een class maakt genaamd TextModel. Het helpt bij het ondersteunen van ingewikkelde tekstmodellen. De class gebruikt verschillende verzamelingen om informatie over woorden, woordlengtes, stammen, zinslengten, leestekens en "g"-woorden op te slaan. Het heeft ook een plek voor tekst en een eigen verzameling om specifieke kenmerken op te slaan.
+
+Er zijn verschillende manieren om het model met data te vullen. Bijvoorbeeld, de read_text_from_file()-functie leest tekst uit een bestand en slaat het op in de tekst-eigenschap van de class. Andere functies die het model helpen vullen zijn: make_sentence_lengths(), make_punctuation(), make_g_woorden(), make_word_lengths(), make_words() en clean_string().
+
+De make_sentence_lengths()-functie vervangt leestekens door punten en breekt de tekst op in zinnen. Het telt de lengte van elke zin en slaat het op in de verzameling "sentence_lengths".
+
+De make_punctuation()-functie telt het aantal keer dat leestekens ("!", ".", "?") in de tekst voorkomen en slaat het op in de "punctuation"-verzameling.
+
+De make_g_woorden()-functie telt het aantal keer dat woorden met de letter "g" in de tekst voorkomen en slaat het op in de "g_woorden"-verzameling.
+
+De make_word_lengths()-functie telt de lengte van elk woord in de tekst en slaat het op in de "word_lengths"-verzameling.
+
+De make_words()-functie maakt een verzameling van schoongemaakte woorden, zonder leestekens en zonder hoofdletters, en telt het aantal keer dat elk woord voorkomt. De resultaten worden opgeslagen in de "words"-verzameling.
+
+De clean_string()-functie krijgt een tekst en geeft een schoongemaakte versie terug, zonder leestekens en zonder hoofdletters.
